@@ -1,0 +1,135 @@
+*{
+  font-family:  Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white ;
+  overflow-x: hidden;
+  
+}
+
+header
+{
+  background-color: aqua;
+  background:rgba(255,255,255,0.0);
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  
+  padding-bottom: 20px;
+  padding-left: 40px;
+  align-items: center;
+}
+nav li{
+  
+justify-content: center;
+display: inline-block;
+justify-content: space-between;
+padding: 0px 20px;
+}
+
+
+.shop-menu{
+  display: inline-block;
+  align-items: center;
+  /* width: 70px;
+  height: 50px; */
+  margin-right: 90px;
+  padding-left: 60px;
+}
+/* .shop-hamburger{ */
+  
+/* } */
+
+.photo1{
+  width: 100%;
+  margin-bottom: -1px;
+
+}
+
+.first{
+  width: 100%; 
+  margin-bottom: -4px; 
+}
+.img1-txt1{
+  font-weight: 100;
+  font-size: 20px;
+position: absolute;
+margin-top: -245px;
+margin-left: 111px;
+}
+.im1-text2{
+  font-family:46px/50px D-DIN-Bold,Arial,Verdana,sans-serif; ;
+  font-weight: 1000;
+  font-size: xx-large;
+  position: absolute;
+  margin-top: -220px;
+  margin-left: 110px;
+  width: 100%;
+
+}
+.rewatch{
+  
+  background-color: transparent;
+  border-color: white ;
+  border-color: solid;
+  height: 60px;
+  width: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  position: absolute; 
+  margin-top: -160px;
+  margin-left: 110px;
+  cursor: pointer;
+  
+  
+}
+.rewatch:hover{
+  background-color: white;
+  color:black;
+  opacity: 0.8;
+  
+}
+
+.logo{
+  /* font-family: fantasy; */
+  width: 250px;
+  height: 150px;
+  padding-bottom: 13px;
+  /* font-size: xx-large; */
+
+}
+.rewatch2{
+  
+  background-color: transparent;
+  border-color: white ;
+  border-color: solid;
+  height: 60px;
+  width: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  position: absolute; 
+  margin-top: -110px;
+  margin-left: 110px;
+  cursor: pointer;
+  
+  
+  
+}
+.rewatch2:hover{
+  background-color: white;
+  color:black;
+  opacity: 0.8;
+  
+}
+.sp-footer{
+  background-color: black;
+  display: flex;
+  font-size: small;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
